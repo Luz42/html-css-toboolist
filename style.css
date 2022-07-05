@@ -20,4 +20,21 @@ img {
     height: 50px;
 }
 
+header {
+    background-color: white;
+}
+
 /* /TITLE */
+
+/* CONTENT */
+main {
+    width: 50%;
+    margin: 10% 25% 0 25%;
+    background-color: white;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+/* /CONTENT */
