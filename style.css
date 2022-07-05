@@ -1,8 +1,6 @@
 /* RESET */
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     font-family: sans-serif;
 }
 
@@ -28,6 +26,7 @@ header {
 
 /* CONTENT */
 main {
+    border-radius: 10px;
     width: 50%;
     margin: 10% 25% 0 25%;
     background-color: white;
@@ -38,3 +37,27 @@ body {
 }
 
 /* /CONTENT */
+
+/* BUTTON */
+button {
+    background-color: white;
+    border-radius: 5px;
+    border-color: #c9ced3;
+    color: #c9ced3;
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.blue {
+    background-color: #47adf1;
+    border-color: white;
+    color: white;
+}
+
+nav {
+    padding: 10px 50px;
+    border-bottom: solid #c9ced3 1px;
+}
+
+/* /BUTTON */
