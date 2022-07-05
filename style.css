@@ -2,6 +2,8 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* /RESET */
@@ -20,6 +22,8 @@ img {
 
 header {
     background-color: white;
+    padding: 10px 20px;
+
 }
 
 /* /TITLE */
@@ -27,8 +31,9 @@ header {
 /* CONTENT */
 main {
     border-radius: 10px;
-    width: 50%;
-    margin: 10% 25% 0 25%;
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
     background-color: white;
 }
 
@@ -57,7 +62,67 @@ button {
 
 nav {
     padding: 10px 50px;
-    border-bottom: solid #c9ced3 1px;
+    border-bottom: solid #f6f8f9 2px;
 }
 
 /* /BUTTON */
+
+/* LIST */
+section {
+    padding: 10px 50px;
+}
+
+h3 {
+    color: #444851;
+}
+
+p {
+    color: #4d5159;
+    margin: 10px;
+}
+
+mark {
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 0.5rem;
+}
+
+.violet {
+    background-color: #9c72e4;
+}
+
+.green {
+    background-color: #64c0a9;
+}
+
+.orange {
+    background-color: #f29e33;
+}
+
+.pink {
+    background-color: #d863a1;
+
+}
+
+.acid-yellow {
+    background-color: #b0c926;
+}
+
+.rounded {
+    border-radius: 50%;
+    border: solid;
+    border-width: thin;
+    padding: 2px;
+    font-size: 0.5rem;
+}
+
+.check {
+    color: green;
+}
+
+.cross {
+    color: red;
+}
+
+/* /LIST */
