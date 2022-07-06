@@ -66,17 +66,23 @@ nav {
 /* /BUTTON */
 
 /* LIST */
-section {
+ul {
+    list-style-type: none;
+}
+
+main>ul {
     padding: 10px 50px;
 }
 
-h3 {
-    color: #444851;
-}
-
-p {
+li {
     color: #4d5159;
     margin: 15px;
+}
+
+
+main>ul>li {
+    color: #444851;
+    font-weight: 800;
 }
 
 mark {
